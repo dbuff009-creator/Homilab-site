@@ -25,3 +25,7 @@ observeReveal(document.querySelectorAll('.scroll-reveal'), (el) => {
 observeReveal(document.querySelectorAll('.links-reveal'), (stack) => {
   stack.classList.add('is-revealed');
 });
+
+observeReveal(document.querySelectorAll('.admins-reveal'), (list) => {
+  list.classList.add('is-revealed');
+});

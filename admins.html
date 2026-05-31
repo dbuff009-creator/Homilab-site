@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HomiLAB — Админ-состав</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/cursor.css" />
+</head>
+<body>
+  <header class="head-bar">
+    <div class="head-bar__inner">
+      <a href="index.html" class="head-bar__brand scribble-title scribble-title--bar">
+        <span class="scribble-title__text">HomiLAB</span>
+        <svg class="scribble-title__wave" viewBox="0 0 120 10" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M2,7 Q28,2 55,6 T108,5 L118,6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="butt" stroke-linejoin="miter"/>
+        </svg>
+      </a>
+      <nav class="head-bar__nav">
+        <a href="index.html">Главная</a>
+        <a href="admins.html">Админ-состав</a>
+        <a href="loading.html">Загрузочный экран</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page page--sub">
+    <section class="admin-block">
+      <h1 class="admin-block__title scroll-reveal">Админ-состав</h1>
+      <p class="admin-block__lead scroll-reveal">Иерархия команды HomiLAB</p>
+
+      <div class="admin-tiers admins-reveal">
+        <section class="admin-tier">
+          <h2 class="admin-tier__title">Владелец</h2>
+          <div class="admin-tier__grid admin-tier__grid--solo">
+            <article class="admin-card admin-card--owner">
+              <span class="admin-card__badge">Владелец</span>
+              <span class="admin-card__nick">Klxcyn</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="admin-tier">
+          <h2 class="admin-tier__title">Менеджеры</h2>
+          <div class="admin-tier__grid">
+            <article class="admin-card admin-card--manager">
+              <span class="admin-card__badge">Менеджер</span>
+              <span class="admin-card__nick">fine</span>
+            </article>
+            <article class="admin-card admin-card--manager">
+              <span class="admin-card__badge">Менеджер</span>
+              <span class="admin-card__nick">qwyto</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="admin-tier">
+          <h2 class="admin-tier__title">Супер-админы</h2>
+          <div class="admin-tier__grid">
+            <article class="admin-card admin-card--super">
+              <span class="admin-card__badge">Супер-админ</span>
+              <span class="admin-card__nick">D3buff</span>
+            </article>
+            <article class="admin-card admin-card--super">
+              <span class="admin-card__badge">Супер-админ</span>
+              <span class="admin-card__nick">Kefir4ick</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="admin-tier">
+          <h2 class="admin-tier__title">Админы</h2>
+          <div class="admin-tier__grid">
+            <article class="admin-card admin-card--admin">
+              <span class="admin-card__badge">Админ</span>
+              <span class="admin-card__nick">XxxGoon3rxxX</span>
+            </article>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>HomiLAB · Все права защищены © 2026</p>
+  </footer>
+
+  <script src="js/cursor.js"></script>
+  <script src="js/scroll-reveal.js"></script>
+</body>
+</html>

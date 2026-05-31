@@ -6,7 +6,7 @@
   root.classList.add('has-custom-cursor');
 
   const img = document.createElement('img');
-  img.src = '/media/cursor.svg';
+  img.src = 'media/cursor.svg';
   img.className = 'site-cursor__img';
   img.width = 32;
   img.height = 32;
@@ -24,7 +24,7 @@
     img.style.top = y + 'px';
   });
 
-  const hoverSel = 'a, button, input, textarea, select, label, .link-card, .chat-fab';
+  const hoverSel = 'a, button, input, textarea, select, label, .link-card';
 
   document.addEventListener('mouseover', (e) => {
     if (e.target.closest(hoverSel)) root.classList.add('cursor--hover');

@@ -15,6 +15,10 @@ const descMask = document.querySelector('.hero-open__desc-mask');
 let endTime = 0.15;
 
 if (titleEl) {
+  titleEl.textContent = '';
+  titleEl.classList.remove('hero-title-fallback');
+  titleEl.classList.add('hero-title-built');
+
   const labWrap = document.createElement('span');
   labWrap.className = 'title-lab';
 

@@ -7,13 +7,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,800;0,9..40,900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/style.css" />
-  <link rel="stylesheet" href="/css/cursor.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/cursor.css" />
 </head>
 <body>
   <header class="head-bar">
     <div class="head-bar__inner">
-      <a href="/" class="head-bar__brand scribble-title scribble-title--bar">
+      <a href="index.html" class="head-bar__brand scribble-title scribble-title--bar">
         <span class="scribble-title__text">HomiLAB</span>
         <svg class="scribble-title__wave" viewBox="0 0 120 10" preserveAspectRatio="none" aria-hidden="true">
           <path d="M2,7 Q28,2 55,6 T108,5 L118,6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="butt" stroke-linejoin="miter"/>
@@ -21,16 +21,16 @@
       </a>
       <nav class="head-bar__nav">
         <a href="#server">О сервере</a>
+        <a href="admins.html">Админ-состав</a>
         <a href="#links">Ссылки</a>
-        <a href="/loading.html">Загрузочный экран</a>
-        <a href="/panel.html">Жалобы\поддержка</a>
+        <a href="loading.html">Загрузочный экран</a>
       </nav>
     </div>
   </header>
 
   <div class="hero-open" id="hero-gif-slot">
     <div class="hero-open__media" aria-hidden="true">
-      <img src="/media/hero.gif" alt="" />
+      <img src="media/hero.gif" alt="" />
     </div>
     <div class="hero-open__glow" aria-hidden="true"></div>
     <div class="hero-particles" aria-hidden="true">
@@ -38,7 +38,7 @@
     </div>
     <div class="hero-open__head">
       <h1 class="hero-open__title" aria-label="HomiLAB">
-        <span id="hero-title"></span>
+        <span id="hero-title" class="hero-title-fallback">HomiLAB</span>
       </h1>
       <div class="hero-open__desc-mask">
         <p class="hero-open__desc">Гмод хомиград сервер</p>
@@ -59,8 +59,8 @@
           <p>Homigrad с акцентом на короткие раунды и разнообразие сценариев. Карты, роли и механики подстраиваются под живой онлайн — без «пустого» гринда.</p>
         </article>
         <article class="server-card scroll-reveal" style="--reveal-delay: 0.24s">
-          <h3>Вход и поддержка</h3>
-          <p>Подключение через GMod — при входе <a href="/loading.html">загрузочный экран</a> проекта. Жалобы и чат с админами — на <a href="/panel.html">странице обращений</a>, донат — Boosty в ссылках ниже.</p>
+          <h3>Как зайти</h3>
+          <p>Через Garry's Mod — подключение к серверу HomiLAB. При входе показывается <a href="loading.html">загрузочный экран</a> проекта. Вопросы и поддержка — в <a href="https://discord.gg/8mD5GzrX5y" target="_blank" rel="noopener">Discord</a>, донат — Boosty ниже.</p>
         </article>
       </div>
     </section>
@@ -116,8 +116,8 @@
     <p>HomiLAB · Все права защищены © 2026</p>
   </footer>
 
-  <script src="/js/cursor.js"></script>
-  <script src="/js/scroll-reveal.js"></script>
-  <script src="/js/hero.js"></script>
+  <script src="js/cursor.js"></script>
+  <script src="js/scroll-reveal.js"></script>
+  <script src="js/hero.js"></script>
 </body>
 </html>
